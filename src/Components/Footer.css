@@ -1,0 +1,68 @@
+.apple-footer {
+  background:#6e6e73 ;
+  color: #fff;
+  font-size: 13px;
+  padding: 40px 0 20px;
+}
+
+.apple-footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.footer-column h4 {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.footer-column a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+
+.apple-footer-bottom {
+  border-top: 1px solid #fff;
+  margin-top: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-links a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .apple-footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .apple-footer-container {
+    grid-template-columns: 1fr;
+  }
+}
